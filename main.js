@@ -7,11 +7,6 @@ const houseCount = document.getElementById("houseCount");
 const farmCount = document.getElementById("farmCount");
 const woodCutterCount = document.getElementById("woodCutterCount");
 
-// Remove the redundant variables:
-// let houseCount = 0;
-// let farmCount = 0;
-// let woodCutterCount = 0;
-
 addHouse.onclick = function() {
   houseCount.textContent++; // Increment and update directly
 };
